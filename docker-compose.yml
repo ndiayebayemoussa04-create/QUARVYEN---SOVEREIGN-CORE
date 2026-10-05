@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  qarvyen-core:
+    build: .
+    container_name: qarvyen-sovereign-core
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+      - "8000:8000"
+    environment:
+      - VITE_SOVEREIGN_MODE=true
+      - VITE_OLLAMA_BASE_URL=http://ollama:11434
+      - VITE_OLLAMA_MODEL=qwen2.5:7b
+      - QARVYEN_ACCELERATION_BACKEND=auto
+    volumes:
+      - ./data:/app/data
+    networks:
+      - qarvyen-net
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: qarvyen-ollama-local
+    restart: unless-stopped
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama-models:/root/.ollama
+    networks:
+      - qarvyen-net
+    # For NVIDIA GPU hardware passthrough:
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: all
+    #           capabilities: [gpu]
+
+networks:
+  qarvyen-net:
+    driver: bridge
+
+volumes:
+  ollama-models:

@@ -1,0 +1,6 @@
+{
+  "name": "QARVYEN 2.0 — Sovereign Intelligence for Complex Worlds",
+  "description": "Plateforme d'intelligence souveraine multisectorielle combinant données satellitaires Sentinel-1 SAR, cartographie haute précision, RAG souverain, agents IA, simulation de crise, accélération matérielle et gouvernance auditable.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

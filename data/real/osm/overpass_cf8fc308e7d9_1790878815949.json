@@ -1,0 +1,37 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-01T18:19:06Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 4386416389,
+  "lat": 16.6427296,
+  "lon": -14.9534247,
+  "tags": {
+    "addr:full": "Saint louis",
+    "amenity": "hospital",
+    "contact:phone": "773134228",
+    "electricity": "grid",
+    "emergency": "no",
+    "healthcare": "pharmacy, hospital, doctor, laboratory",
+    "healthcare:equipment": "laboratory, imaging equipment",
+    "insurance:health": "public",
+    "name": "centre de sante amadou malick guaye",
+    "opening_hours": "Mo-Fr 24/24; PH off",
+    "operational_status": "operational",
+    "operator": "Ministère de la santé et de l'action sociale",
+    "operator:type": "public",
+    "osm_id": "13f9452a-e180-4a82-a11c-845a2ea62e3e",
+    "source": "#senegal #covid-19 #emergency-health-data-validation #healthsites",
+    "water_source": "well",
+    "wheelchair": "yes"
+  }
+}
+
+  ]
+}

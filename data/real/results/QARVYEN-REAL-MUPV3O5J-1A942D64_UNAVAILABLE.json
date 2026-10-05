@@ -1,0 +1,22 @@
+{
+  "processingId": "QARVYEN-REAL-MUPV3O5J-1A942D64",
+  "timestamp": "2026-10-01T18:22:53.960Z",
+  "executionMode": "REAL_DATA",
+  "systemStatus": "REAL_DATA_UNAVAILABLE",
+  "success": false,
+  "failureReason": "Copernicus CDSE: AUTHENTICATION_FAILED: CDSE Keycloak rejected credentials with HTTP 401: {\"error\":\"invalid_client\",\"error_description\":\"Invalid client or Invalid client credentials\"} | WorldPop: WORLDPOP_FILE_MISSING: The physical GeoTIFF worldpop_SEN_100m_unconstrained_2024.tif is not present on disk at /app/applet/data/real/worldpop/worldpop_SEN_100m_unconstrained_2024.tif.",
+  "sourcesVerified": {
+    "copernicus": {
+      "available": false
+    },
+    "worldpop": {
+      "available": false
+    },
+    "osm": {
+      "available": true,
+      "diskResponsePath": "/app/applet/data/real/osm/overpass_cf8fc308e7d9_1790878985080.json",
+      "rawSha256": "1ff68320d10e7a7ca3ab667d71517af44084ee3613b0c3dd547121dc49b04bd1",
+      "assetsCount": 1
+    }
+  }
+}

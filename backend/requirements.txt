@@ -1,0 +1,28 @@
+# QARVYEN 2.0 Sovereign Intelligence Backend Requirements
+# Hardware Acceleration: CPU / NVIDIA CUDA / AMD ROCm / Apple Metal
+
+# Web & API Framework
+fastapi==0.115.0
+uvicorn[standard]==0.31.0
+pydantic==2.9.2
+python-dotenv==1.0.1
+
+# Geospatial & Satellite SAR Processing
+openeo==0.33.0
+rasterio==1.4.1
+geopandas==1.0.1
+shapely==2.0.6
+numpy==2.1.2
+scipy==1.14.1
+
+# AI, Embeddings & RAG
+langchain-core==0.3.7
+sentence-transformers==3.1.1
+chromadb==0.5.11
+requests==2.32.3
+
+# Hardware Acceleration & GPU Computation
+# Note: For NVIDIA CUDA: install torch with --index-url https://download.pytorch.org/whl/cu124
+# Note: For AMD ROCm: install torch with --index-url https://download.pytorch.org/whl/rocm6.2
+torch==2.4.1
+torchvision==0.19.1

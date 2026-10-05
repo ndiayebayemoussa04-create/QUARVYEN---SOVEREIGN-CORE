@@ -1,0 +1,20 @@
+{
+  "processingId": "QARVYEN-REAL-MUQQ34WD-052E1951",
+  "timestamp": "2026-10-02T08:50:17.101Z",
+  "executionMode": "REAL_DATA",
+  "systemStatus": "REAL_DATA_UNAVAILABLE",
+  "success": false,
+  "failureReason": "Copernicus CDSE: AUTHENTICATION_FAILED: CDSE Keycloak rejected credentials with HTTP 405: {\"error\":\"HTTP 405 Method Not Allowed\"} | WorldPop: Invalid byte order value. | OpenStreetMap: OVERPASS_UNAVAILABLE: Failed to query live Overpass API after attempting primary and fallback endpoints. Detail: The operation was aborted due to timeout",
+  "sourcesVerified": {
+    "copernicus": {
+      "available": false
+    },
+    "worldpop": {
+      "available": false
+    },
+    "osm": {
+      "available": false,
+      "assetsCount": 0
+    }
+  }
+}

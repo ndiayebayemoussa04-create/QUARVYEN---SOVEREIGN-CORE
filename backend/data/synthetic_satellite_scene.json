@@ -1,0 +1,15 @@
+{
+  "dataset_type": "SYNTHETIC_CALIBRATION_VECTOR",
+  "warning": "CE FICHIER EST UN VECTEUR SYNTHÉTIQUE DE TEST ET CALIBRATION. NE PAS UTILISER COMME DONNÉE OPÉRATIONNELLE RÉELLE SANS MENTION.",
+  "scene_id": "SYNTH_S1_CALIBRATION_GRID_001",
+  "sensor": "C-SAR (Simulated)",
+  "grid_shape": [64, 64],
+  "nominal_soil_sigma0_db": -10.5,
+  "nominal_water_sigma0_db": -18.2,
+  "calibration_factor_k": 1.042,
+  "synthetic_flood_patch": {
+    "center_pixel": [32, 32],
+    "radius_pixels": 14,
+    "delta_sigma0_db": -7.7
+  }
+}
